@@ -1,6 +1,6 @@
 # tiny-coin
 
-To install:
+To install backend:
 cd tiny-coin
 npm install
 
@@ -19,3 +19,18 @@ localhost:3000/history?address=jack
 Sample commands to check balances:
 localhost:3000/balance?address=shankar
 localhost:3000/balance?address=jack
+
+Frontend is served from http://localhost:8080
+
+To install frontend:
+cd vue-frontend
+npm install
+
+To run frontend:
+npm run serve
+
+Usage examples:
+
+1. Login with account name "shankar", there are some dummy transactions.
+2. Make a Transfer to "jack"
+3. Logout, then login with account name "jack"
