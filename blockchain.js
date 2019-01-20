@@ -35,7 +35,8 @@ class Blockchain {
     this.transaction_pool.push({
       sender: sender,
       receipient: receipient,
-      amount: amount
+      amount: amount,
+      created: Date.now()
     });
     return this.previousBlock()['index'] + 1;
   }
