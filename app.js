@@ -89,7 +89,5 @@ app.get('/balance', (req, res) => {
 
   const balance = total_received - total_sent;
 
-  res.send(
-    `Total balance for address:${req.query.address} is ${balance} tinycoins`
-  );
+  res.send(`Account Balance for ${req.query.address} is ${balance} Tinycoins`);
 });
