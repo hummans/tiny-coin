@@ -4,7 +4,7 @@
       <v-spacer class="hidden-md-and-up"></v-spacer>
       <v-toolbar-title>{{appTitle}}</v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn @click="handleLogout()" v-if="$store.state.loggedIn">Logout</v-btn>
+      <v-btn @click="handleLogout()" v-if="$store.state.loggedIn.length>0">Logout</v-btn>
     </v-toolbar>
   </span>
 </template>
@@ -19,7 +19,7 @@ export default {
   },
   methods: {
     handleLogout: async function() {
-      this.$store.commit("loginStatus", false);
+      this.$store.commit("loginStatus", "");
       this.$router.push("/");
     }
   }

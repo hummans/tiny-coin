@@ -11,6 +11,7 @@
               <h4>Login</h4>
             </v-card-title>
             <v-form>
+              <v-text-field v-model="accountName" name="AccountName" label="Account Name"></v-text-field>
               <v-card-actions>
                 <v-btn @click="handleLogin()" primary large block>Login</v-btn>
               </v-card-actions>
@@ -31,7 +32,7 @@ export default {
   },
   methods: {
     handleLogin: async function() {
-      this.$store.commit("loginStatus", true);
+      this.$store.commit("loginStatus", this.accountName);
       this.$router.push("home");
     }
   }
