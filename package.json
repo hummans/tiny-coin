@@ -1,0 +1,24 @@
+{
+  "name": "tiny-coin",
+  "version": "1.0.0",
+  "description": "Tiniest Crypto Currency",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shankqr/tiny-coin.git"
+  },
+  "author": "Shankar Nathan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shankqr/tiny-coin/issues"
+  },
+  "homepage": "https://github.com/shankqr/tiny-coin#readme"
+}
