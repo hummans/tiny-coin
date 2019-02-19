@@ -1,5 +1,9 @@
 # tiny-coin
 
+These are the source files for my article on HackerNoon: How to penetrate into the Blockchain space as a developer without having a concrete project.
+
+Link to my article: https://hackernoon.com/how-to-penetrate-into-the-blockchain-space-as-a-developer-without-having-a-concrete-project-16f7a753082
+
 Tiniest Crypto Currency on a Blockchain (Powered by NodeJS and VueJS)
 
 # backend
